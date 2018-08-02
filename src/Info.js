@@ -1,4 +1,12 @@
-Information
+import React, { Component } from 'react';
+
+
+
+class App extends Component {
+  render() {
+    return (
+
+<p>Information
 Contact us
 Map to the studio, phone number, email, etc
 
@@ -10,3 +18,10 @@ Trust us, you really don't want to wear plaids. Good information to read.
 
 Investment
 What can you expect to pay?
+</p>
+</div>
+);
+}
+}
+
+export default App;
