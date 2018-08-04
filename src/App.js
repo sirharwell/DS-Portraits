@@ -13,9 +13,7 @@ class App extends Component {
         bgImageAlt="the cat"
         strength={200}
       >
-        Put some text content here
-        or even an empty div with fixed dimensions
-        to have a height for the parallax.
+      World class service for a world class person. 
         <div style={{ height: '200px' }} />
       </Parallax>
       <Parallax
