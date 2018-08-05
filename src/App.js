@@ -7,13 +7,14 @@ import { Parallax, Background } from 'react-parallax';
 class App extends Component {
   render() {
     return (
+      <div>
       <Parallax
         blur={10}
         bgImage={require('path/to/image.jpg')}
         bgImageAlt="the cat"
         strength={200}
       >
-      World class service for a world class person. 
+      World class service for a world class person.
         <div style={{ height: '200px' }} />
       </Parallax>
       <Parallax
@@ -39,6 +40,7 @@ class App extends Component {
         <p className="App-intro">
           This will be the home page.
         </p>
+      </div>
       </div>
     );
   }
