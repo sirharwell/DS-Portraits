@@ -26,6 +26,15 @@ class App extends Component {
         Blur transition from min to max
         <div style={{ height: '200px' }} />
       </Parallax>
+      <Parallax
+        blur={{ min: -15, max: 15 }}
+        bgImage={require('photos/image3.jpg')}
+        bgImageAlt="the dog"
+        strength={200}
+      >
+        Blur transition from min to max
+        <div style={{ height: '200px' }} />
+      </Parallax>
       <Parallax strength={300}>
         <div>Use the background component for custom elements</div>
         <Background className="custom-bg">
