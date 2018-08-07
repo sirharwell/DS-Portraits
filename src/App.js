@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Parallax, Background } from 'react-parallax';
-
+import './image.jpg'
+import './image2.jpeg'
+import './image3.jpg'
 
 class App extends Component {
   render() {
