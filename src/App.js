@@ -12,7 +12,7 @@ class App extends Component {
       <div>
       <Parallax
         blur={10}
-        bgImage={require('image.jpg')}
+        href={"https://i.ytimg.com/vi/BEm8MzrdkJ0/maxresdefault.jpg"}
         bgImageAlt="the cat"
         strength={200}
       >
@@ -21,7 +21,7 @@ class App extends Component {
       </Parallax>
       <Parallax
         blur={{ min: -15, max: 15 }}
-        bgImage={require('image2.jpeg')}
+        href={"https://i.ytimg.com/vi/BEm8MzrdkJ0/maxresdefault.jpg"}
         bgImageAlt="the dog"
         strength={200}
       >
@@ -30,7 +30,7 @@ class App extends Component {
       </Parallax>
       <Parallax
         blur={{ min: -15, max: 15 }}
-        bgImage={require('image3.jpg')}
+        href={"https://i.ytimg.com/vi/BEm8MzrdkJ0/maxresdefault.jpg"}
         bgImageAlt="the dog"
         strength={200}
       >
