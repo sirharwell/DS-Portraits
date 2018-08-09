@@ -38,4 +38,4 @@ const App = () => (
   </div>
 );
 
-export app;
+export default App;
