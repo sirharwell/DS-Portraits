@@ -21,13 +21,15 @@ const App = () => (
       </div>
     </Parallax>
     <h1>| | |</h1>
-    <Parallax bgImage={image3}>
+    <Parallax bgImage={image3}
+      strength={500}>
       <div style={{height: 500}}>
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
     <h1>| | |</h1>
-    <Parallax bgImage={image2}>
+    <Parallax bgImage={image2}
+      strength={500}>
       <div style={{height: 500}}>
         <div style={insideStyles}>Very expensive equipment</div>
       </div>
