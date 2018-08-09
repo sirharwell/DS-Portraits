@@ -18,31 +18,31 @@ const App = () => (
   <div style={styles}>
     <Parallax bgImage={image1}
       strength={500}>
-      <div style={{height: 500}}>
+      <div style={{height: 1000}}>
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
     <Parallax bgImage={image3}
       strength={500}>
-      <div style={{height: 500}}>
+      <div style={{height: 1000}}>
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
     <Parallax bgImage={image2}
       strength={500}>
-      <div style={{height: 500}}>
+      <div style={{height: 1000}}>
         <div style={insideStyles}>Very expensive equipment</div>
       </div>
     </Parallax>
     <Parallax bgImage={image4}
       strength={500}>
-      <div style={{height: 500}}>
+      <div style={{height: 1000}}>
         <div style={insideStyles}>Hipster Shmipster</div>
       </div>
     </Parallax>
     <Parallax bgImage={image5}
       strength={500}>
-      <div style={{height: 500}}>
+      <div style={{height: 1000}}>
         <div style={insideStyles}>Look at the Ocean</div>
       </div>
     </Parallax>
