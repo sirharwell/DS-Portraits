@@ -22,23 +22,30 @@ const App = () => (
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
-    <h1>You don't know what might happen with the "other" guys</h1>
     <Parallax bgImage={image3}
       strength={500}>
       <div style={{height: 500}}>
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
-    <h1>I was in the military</h1>
     <Parallax bgImage={image2}
       strength={500}>
       <div style={{height: 500}}>
         <div style={insideStyles}>Very expensive equipment</div>
       </div>
     </Parallax>
-    <div style={{height: 500}}>
+    <Parallax bgImage={image4}
+      strength={500}>
+      <div style={{height: 500}}>
+        <div style={insideStyles}>Hipster Shmipster</div>
       </div>
-    <h2>{'\u2728'}</h2>
+    </Parallax>
+    <Parallax bgImage={image5}
+      strength={500}>
+      <div style={{height: 500}}>
+        <div style={insideStyles}>Look at the Ocean</div>
+      </div>
+    </Parallax>
   </div>
 );
 
