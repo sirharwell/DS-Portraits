@@ -1,60 +1,42 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Parallax, Background } from 'react-parallax';
-import './image.jpg'
-import './image2.jpeg'
-import './image3.jpg'
+import React from 'react';
+import { render } from 'react-dom';
+import { Parallax } from 'react-parallax';
+import Hello from './Hello';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-      <Parallax
-        blur={10}
-        href={"https://i.ytimg.com/vi/BEm8MzrdkJ0/maxresdefault.jpg"}
-        bgImageAlt="the cat"
-        strength={200}
-      >
-      World class service for a world class person.
-        <div style={{ height: '200px' }} />
-      </Parallax>
-      <Parallax
-        blur={{ min: -15, max: 15 }}
-        href={"https://i.ytimg.com/vi/BEm8MzrdkJ0/maxresdefault.jpg"}
-        bgImageAlt="the dog"
-        strength={200}
-      >
-        Blur transition from min to max
-        <div style={{ height: '200px' }} />
-      </Parallax>
-      <Parallax
-        blur={{ min: -15, max: 15 }}
-        href={"https://i.ytimg.com/vi/BEm8MzrdkJ0/maxresdefault.jpg"}
-        bgImageAlt="the dog"
-        strength={200}
-      >
-        Blur transition from min to max
-        <div style={{ height: '200px' }} />
-      </Parallax>
-      <Parallax strength={300}>
-        <div>Use the background component for custom elements</div>
-        <Background className="custom-bg">
-          <img src="http://www.fillmurray.com/500/320" alt="fill murray" />
-        </Background>
-      </Parallax>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to DS Portraits</h1>
-        </header>
-        <p className="App-intro">
-          This will be the home page.
-        </p>
-      </div>
-      </div>
-    );
-  }
-}
+const styles = {
+  fontFamily: 'sans-serif',
+  textAlign: 'center',
+};
+const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)'};
+const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+const image2 = "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
+const image3 = "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001";
 
-export default App;
+const App = () => (
+  <div style={styles}>
+    <Hello name="Parallax" />
+    <Parallax bgImage={image1}
+      strength={500}>
+      <div style={{height: 500}}>
+        <div style={insideStyles}>HTML inside the parallax</div>
+      </div>
+    </Parallax>
+    <h1>| | |</h1>
+    <Parallax bgImage={image3} blur={{min: -1,max:3}}>
+      <div style={{height: 500}}>
+        <div style={insideStyles}>Dynamic Blur</div>
+      </div>
+    </Parallax>
+    <h1>| | |</h1>
+    <Parallax bgImage={image2} strength={-100}>
+      <div style={{height: 500}}>
+        <div style={insideStyles}>Reverse direction</div>
+      </div>
+    </Parallax>
+    <div style={{height: 500}}>
+      </div>
+    <h2>{'\u2728'}</h2>
+  </div>
+);
+
+render(<App />, document.getElementById('root'));
