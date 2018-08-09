@@ -14,23 +14,22 @@ const image3 = "https://www.outdoorphotographer.com/images/stories/2015/apr/solu
 
 const App = () => (
   <div style={styles}>
-    <Hello name="Parallax" />
     <Parallax bgImage={image1}
       strength={500}>
       <div style={{height: 500}}>
-        <div style={insideStyles}>HTML inside the parallax</div>
+        <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
     <h1>| | |</h1>
-    <Parallax bgImage={image3} blur={{min: -1,max:3}}>
+    <Parallax bgImage={image3}>
       <div style={{height: 500}}>
-        <div style={insideStyles}>Dynamic Blur</div>
+        <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
     <h1>| | |</h1>
-    <Parallax bgImage={image2} strength={-100}>
+    <Parallax bgImage={image2}>
       <div style={{height: 500}}>
-        <div style={insideStyles}>Reverse direction</div>
+        <div style={insideStyles}>Very expensive equipment</div>
       </div>
     </Parallax>
     <div style={{height: 500}}>
