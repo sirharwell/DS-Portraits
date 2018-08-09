@@ -20,14 +20,14 @@ const App = () => (
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
-    <h1>| | |</h1>
+    <h1>You don't know what might happen with the "other" guys</h1>
     <Parallax bgImage={image3}
       strength={500}>
       <div style={{height: 500}}>
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
-    <h1>| | |</h1>
+    <h1>I was in the military</h1>
     <Parallax bgImage={image2}
       strength={500}>
       <div style={{height: 500}}>
