@@ -13,6 +13,8 @@ const image2 = "https://images.unsplash.com/photo-1488724485310-bd445f3faff6?ixl
 const image3 = "https://www.outdoorphotographer.com/images/stories/2015/apr/solutions/lead.jpg";
 const image4 = "https://d3c0aoh0dus5lw.cloudfront.net/WP/wp-content/uploads/2017/11/cjasonbradley_170902_26266-864x577.jpg";
 const image5 = "https://boraboraphotos.com/wp-content/uploads/2014/07/edouard-ott-bora-bora-photographer.jpg"
+const image6 = "http://www.dpreview.com/files/p/articles/0037136272/thingscutinhalf-05.jpeg"
+
 
 const App = () => (
   <div style={styles}>
@@ -47,6 +49,13 @@ const App = () => (
         <div style={insideStyles}>Look at the Ocean</div>
       </div>
     </Parallax>
+    <Parallax bgImage={image6}
+      strength={500}>
+      <div style={{height: 700}}>
+        <div style={insideStyles}>We know the camera inside and out</div>
+      </div>
+    </Parallax>
+
   </div>
 );
 
