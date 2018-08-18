@@ -14,7 +14,8 @@ const image3 = "https://www.outdoorphotographer.com/images/stories/2015/apr/solu
 const image4 = "https://d3c0aoh0dus5lw.cloudfront.net/WP/wp-content/uploads/2017/11/cjasonbradley_170902_26266-864x577.jpg";
 const image5 = "https://boraboraphotos.com/wp-content/uploads/2014/07/edouard-ott-bora-bora-photographer.jpg"
 const image6 = "http://www.dpreview.com/files/p/articles/0037136272/thingscutinhalf-05.jpeg"
-
+const image7 = "https://i2.wp.com/www.thephotographyteam.co.uk/wp-content/uploads/2017/12/Fuji.jpg?resize=1200%2C800&ssl=1"
+const image8 = "https://picscout.com/wp-content/uploads/2017/04/jakob-owens-91193-1024x842-1-1024x842.jpg"
 
 const App = () => (
   <div style={styles}>
@@ -24,7 +25,6 @@ const App = () => (
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
-
     <Parallax bgImage={image3}
       strength={500}>
       <div style={{height: 700}}>
@@ -53,6 +53,18 @@ const App = () => (
       strength={500}>
       <div style={{height: 700}}>
         <div style={insideStyles}>We know the camera inside and out</div>
+      </div>
+    </Parallax>
+    <Parallax bgImage={image7}
+      strength={500}>
+      <div style={{height: 700}}>
+        <div style={insideStyles}>We got the gear</div>
+      </div>
+    </Parallax>
+    <Parallax bgImage={image8}
+      strength={500}>
+      <div style={{height: 700}}>
+        <div style={insideStyles}>Look at all that stuff</div>
       </div>
     </Parallax>
 
