@@ -2,6 +2,20 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Parallax } from 'react-parallax';
 import Hello from './Hello';
+import {
+  Button,
+  Container,
+  Divider,
+  Grid,
+  Header,
+  Icon,
+  Image,
+  List,
+  Menu,
+  Segment,
+  Sidebar,
+} from 'semantic-ui-react'
+
 
 const styles = {
   fontFamily: 'sans-serif',
@@ -67,7 +81,32 @@ const App = () => (
         <div style={insideStyles}>Look at all that stuff</div>
       </div>
     </Parallax>
-
+    <Segment inverted vertical style={{ padding: '2em 0em' }}>
+        <Container>
+          <Grid divided inverted stackable>
+            <Grid.Row>
+              <Grid.Column width={5}>
+                <Header inverted as='h4' content='Contact Us' />
+                <div link inverted>
+                  <p>Phone: (801) 555-5555</p>
+                  <p>Email: alan@dsportraits.com</p>
+                  <p>Address: 300 East 370 South<br /> Salt Lake City, Utah 84111</p>
+                  <div textAlign='center' relaxed columns={3}>
+                      <Button circular color='facebook' icon='facebook' />
+                      <Button circular color='twitter' icon='twitter' />
+                      <Button circular color='linkedin' icon='linkedin' />
+                      <Button circular color='google plus' icon='google plus' />
+                    </div>
+                </div>
+              </Grid.Column>
+              <Grid.Column width={10} verticalAlign="middle">
+                <Header as='h4' inverted>About</Header>
+                <p>We're photographers with a plan. I served 20 years in the military honing my skills and being the best I could possibly be.</p>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Container>
+      </Segment>
   </div>
 );
 
