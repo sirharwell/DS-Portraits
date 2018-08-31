@@ -45,16 +45,16 @@ const App = () => (
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
-    <Parallax bgImage={image2}
-      strength={500}>
-      <div style={{height: 700}}>
-        <div style={insideStyles}>Very expensive equipment</div>
-      </div>
-    </Parallax>
     <Parallax bgImage={image4}
       strength={500}>
       <div style={{height: 700}}>
         <div style={insideStyles}>Hipster Shmipster</div>
+      </div>
+    </Parallax>
+    <Parallax bgImage={image2}
+      strength={500}>
+      <div style={{height: 700}}>
+        <div style={insideStyles}>Very expensive equipment</div>
       </div>
     </Parallax>
     <Parallax bgImage={image5}
