@@ -30,6 +30,7 @@ const image5 = "https://boraboraphotos.com/wp-content/uploads/2014/07/edouard-ot
 const image6 = "http://www.dpreview.com/files/p/articles/0037136272/thingscutinhalf-05.jpeg"
 const image7 = "https://i2.wp.com/www.thephotographyteam.co.uk/wp-content/uploads/2017/12/Fuji.jpg?resize=1200%2C800&ssl=1"
 const image8 = "https://picscout.com/wp-content/uploads/2017/04/jakob-owens-91193-1024x842-1-1024x842.jpg"
+const image9 = "https://static.pexels.com/photos/368893/pexels-photo-368893.jpeg"
 
 const App = () => (
   <div style={styles}>
