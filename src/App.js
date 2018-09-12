@@ -40,19 +40,19 @@ const App = () => (
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
-    <Parallax bgImage={image3}
+    <Parallax bgImage={image2}
       strength={500}>
       <div style={{height: 700}}>
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
-    <Parallax bgImage={image4}
+    <Parallax bgImage={image3}
       strength={500}>
       <div style={{height: 700}}>
         <div style={insideStyles}>Hipster Shmipster</div>
       </div>
     </Parallax>
-    <Parallax bgImage={image2}
+    <Parallax bgImage={image4}
       strength={500}>
       <div style={{height: 700}}>
         <div style={insideStyles}>Very expensive equipment</div>
