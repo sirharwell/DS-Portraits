@@ -73,7 +73,7 @@ const App = () => (
     <Parallax bgImage={image7}
       strength={500}>
       <div style={{height: 700}}>
-        <div style={insideStyles}>We got the gear</div>
+        <div style={insideStyles}>We've got the gear</div>
       </div>
     </Parallax>
     <Parallax bgImage={image8}
