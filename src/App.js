@@ -89,9 +89,9 @@ const App = () => (
               <Grid.Column width={5}>
                 <Header inverted as='h4' content='Contact Us' />
                 <div link inverted>
-                  <p>Phone: (801) 555-5555</p>
+                  <p>Phone: (801) 836-3322</p>
                   <p>Email: alan@dsportraits.com</p>
-                  <p>Address: 300 East 370 South<br /> Salt Lake City, Utah 84111</p>
+                  <p>Address: 30 coastal way<br /> Belfair, Wa</p>
                   <div textAlign='center' relaxed columns={3}>
                       <Button circular color='facebook' icon='facebook' />
                       <Button circular color='twitter' icon='twitter' />
