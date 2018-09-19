@@ -36,49 +36,49 @@ const App = () => (
   <div style={styles}>
     <Parallax bgImage={image1}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
     </Parallax>
     <Parallax bgImage={image2}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>30 Years in the business</div>
       </div>
     </Parallax>
     <Parallax bgImage={image3}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>Hipster Shmipster</div>
       </div>
     </Parallax>
     <Parallax bgImage={image4}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>Very expensive equipment</div>
       </div>
     </Parallax>
     <Parallax bgImage={image5}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>Look at the Ocean</div>
       </div>
     </Parallax>
     <Parallax bgImage={image6}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>We know the camera inside and out</div>
       </div>
     </Parallax>
     <Parallax bgImage={image7}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>We've got the gear</div>
       </div>
     </Parallax>
     <Parallax bgImage={image8}
       strength={500}>
-      <div style={{height: 700}}>
+      <div style={{height: 650}}>
         <div style={insideStyles}>Look at all that stuff</div>
       </div>
     </Parallax>
