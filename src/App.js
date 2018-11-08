@@ -35,7 +35,7 @@ const image9 = "https://static.pexels.com/photos/368893/pexels-photo-368893.jpeg
 const App = () => (
   <div style={styles}>
     <Parallax bgImage={image1}
-      strength={500}>
+      strength={515}>
       <div style={{height: 650}}>
         <div style={insideStyles}>Professionals that you can trust</div>
       </div>
