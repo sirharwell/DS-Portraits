@@ -89,6 +89,12 @@ const App = () => (
         <div style={insideStyles}>looking good</div>
       </div>
     </Parallax>
+    <Parallax bgImage={image10}
+      strength={500}>
+      <div style={{height: 650}}>
+        <div style={insideStyles}>Your special day is in good hands</div>
+      </div>
+     </Parallax>
     <Segment inverted vertical style={{ padding: '2em 0em' }}>
         <Container>
           <Grid divided inverted stackable>
